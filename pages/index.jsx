@@ -11,7 +11,7 @@ export default function Home() {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <Subdivision />
+      <Subdivision Onchange={} />
       <Subdivision />
       <Subdivision />
       
