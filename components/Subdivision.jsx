@@ -1,5 +1,12 @@
 import styles from "../styles/Subdivision.module.css";
 
 export default function Subdivision(props) {
-  return <div className={styles.subdivision}></div>;
+  return (
+    <div
+      style={{
+        backgroundColor: props.negative ? "#f38" : "#3ff",
+      }}
+      className={styles.subdivision}
+    ></div>
+  );
 }

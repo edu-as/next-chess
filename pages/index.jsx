@@ -1,5 +1,5 @@
-import Subdivision from "../components/Subdivision";
 import styles from "../styles/Home.module.css";
+import GameBoard from "../components/GameBoard";
 export default function Home() {
   return (
     <div
@@ -11,10 +11,7 @@ export default function Home() {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <Subdivision Onchange={} />
-      <Subdivision />
-      <Subdivision />
-      
+      <GameBoard />
     </div>
   );
 }
